@@ -7,11 +7,6 @@
 
 <script>
 const urlParams = new URLSearchParams(window.location.search);
-const redirect = urlParams.get('redirect2');
-const redirect2 = window.location.hash.substring(1);
-if(redirect&&new URL(redirect).hostname == window.location.hostname)
-  window.location.href = redirect;
-if(redirect2) window.location.href = redirect2;
 </script>
 
 </body>
